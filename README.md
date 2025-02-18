@@ -18,3 +18,11 @@ Todo API v1 est une application Java qui permet de gérer une liste de tâches (
 
 ```bash
 git clone https://votre-repo-url.git
+
+
+Endpoints
+GET /api/todos : Récupère toutes les tâches.
+POST /api/todos : Ajoute une nouvelle tâche.
+PUT /api/todos/{id} : Met à jour une tâche existante.
+DELETE /api/todos/{id} : Supprime une tâche.
+
